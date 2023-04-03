@@ -69,10 +69,9 @@ function agregarNumeros(arrayOfNums) {
    // Suma todos los elementos y retorna el resultado.
    // Tu código:
    let sum = 0
-   for (post in objetoUsuario.posts) {
-      sum += objetoUsuario.posts[post].likes;
-     
-}
+   for (let i = 0; i < arrayOfNums.length; i++) {
+      sum += arrayOfNums[i];
+   }
 return sum;
 }
 
